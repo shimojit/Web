@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Common
+================================================= */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #fff;
+  z-index: 10;
+}
+
+main {
+  background-image: url('../images/wakakusayama-_TP_V4.jpg');
+  background-size: cover;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+/* Home
+================================================= */
