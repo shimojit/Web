@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 95%;
+  margin: 10px auto 0;
+}
+
+.character-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-display img {
+  width: 55vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.back-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 20vh;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.rpg-window {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  z-index: 1;
+  color: #fff;
+  width: 98%;
+  height: 95%;
+  padding: 5px 10px;
+}
