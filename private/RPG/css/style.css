@@ -66,6 +66,23 @@ header {
   padding: 5px 10px;
 }
 
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  height: 20vh;
+}
+
+button {
+  background-color: rgba(0, 255, 255, 0.5);
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.contents a {
+  display: block;
+}
+
 footer {
   background-color: #000;
   color: #fff;
