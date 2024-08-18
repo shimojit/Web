@@ -44,6 +44,11 @@ header {
   object-fit: cover;
 }
 
+main {
+  max-width: 400px;
+  max-height: 700px;
+}
+
 .back-window {
   display: flex;
   justify-content: center;
